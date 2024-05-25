@@ -6,7 +6,9 @@ date: "2024-05-27"
 format: 
   revealjs: 
     theme: dark
+    toc: true
 editor: visual
+pdf-engine-opt: --no-toc-relocation.
 warnings: false
 title-slide-attributes:
   data-background-image: /dead-by-daylight-key-art.png
@@ -20,11 +22,25 @@ How the game works:
 
 -   1 killer, 4 survivors
 -   Killer: Injure, hook and eventually kill as many survivors as possible
--   Survivors: Repair generators and try to open the exit gates and escape (only after 5 generators were repaired)
+-   Survivors: Repair generators and try to open the exit gates and escape (only after 5 generators were repaired). Possibility to escape through a hatch (only when 1 survivor is still alive)
 
 [GitHub repository](https://github.com/doubavitch/Dead-by-Daylight-Predictions)
 
 [More about the game](https://deadbydaylight.com)
+
+# Correlation study {background-image="/dbd-gallery-background.jpg"}
+
+## Correlation between repair and escape rate
+
+![](correlation esc rate repair rate.png)
+
+## Map and Killer dependences
+
+![](heatmap.png)
+
+# First attempts {background-image="/dbd-gallery-background.jpg"}
+
+# SVM {background-image="/dbd-gallery-background.jpg"}
 
 # Thank you for your attention! {background-image="/ash-williams-dead-by-daylight.jpg"}
 
